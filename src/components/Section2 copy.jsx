@@ -17,7 +17,7 @@ const Section2 = () => {
   ];
 
   return (
-    <div className=" flex flex-col  justify-between bg-[#00001a] p-[20px] pb-0 md:w-4/12">
+    <div className=" bg- flex  flex-col justify-between p-[20px] pb-0 md:w-4/12">
       <span className="font-x-b text-3xl text-[#e9ae52]">New</span>
       <div className="flex flex-1 flex-col justify-around">
         {NewList.map((item, i) => (
